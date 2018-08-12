@@ -1,0 +1,11 @@
+
+public class MarvelCharacters {
+	public static void main(String[] args) {
+		try {
+			GetMarvelCharacters gmc = new GetMarvelCharacters();
+			gmc.getCharacters();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
