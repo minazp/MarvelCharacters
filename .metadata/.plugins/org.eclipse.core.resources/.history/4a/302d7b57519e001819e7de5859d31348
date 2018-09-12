@@ -1,0 +1,67 @@
+import java.util.ArrayList;
+
+
+public class SortMarvelCharacters {
+	
+	private ArrayList <MarvelCharacter> mcArray = new ArrayList<MarvelCharacter>();
+
+	public void sort(ArrayList <MarvelCharacter> marvelCharacters) {
+
+		if (marvelCharacters == null || marvelCharacters.size() == 0) {
+			return;
+		}
+				
+		quickSort(0, marvelCharacters.size() - 1);
+	}
+	
+	private void quickSort(int lowerFloor, int higherFloor) {
+		
+		int lowerIndex  = lowerFloor;
+		int higherIndex = higherFloor;
+		
+		// calculate pivot number, lowerIndex am taking pivot as middle index number
+		int pivot = mcArray.get(lowerIndex+(higherIndex-lowerIndex)/2).getTotalAppearances();
+
+		// Divide into two arrays
+		while (lowerIndex <= higherIndex) {
+			/**
+			 * In each iteration, we will identify a number from left side which 
+			 * is greater then the pivot value, and also we will identify a number 
+			 * from right side which is less then the pivot value. Once the search 
+			 * is done, then we exchange both numbers.
+			 */
+			while (mcArray.get(lowerIndex).getTotalAppearances() < pivot) {
+				lowerIndex++;
+			}
+			while (mcArray.get(higherIndex).getTotalAppearances() > pivot) {
+				higherIndex--;
+			}
+			if (lowerIndex <= higherIndex) {
+				exchangeNumbers(lowerIndex, higherIndex);
+				//move index to next position on both sides
+				lowerIndex++;
+				higherIndex--;
+			}
+			
+			// call quickSort() method recursively
+	        if (lowerFloor < higherIndex)
+	            quickSort(lowerFloor, higherIndex);
+	        if (lowerIndex < higherFloor)
+	            quickSort(lowerIndex, higherFloor);
+		}
+	}
+	
+	private void exchangeNumbers(int lowerIndex, int higherIndex) {
+				
+		MarvelCharacter temp = mcArray.get(lowerIndex);
+		//swap low for high
+		mcArray.get(lowerIndex).setId(mcArray.get(higherIndex).getId());
+		mcArray.get(lowerIndex).setTotalComics(mcArray.get(higherIndex).getTotalComics());
+		mcArray.get(lowerIndex).setTotalStories(mcArray.get(higherIndex).getTotalStories());
+		//swap high for low
+		mcArray.get(higherIndex).setId(temp.getId());
+		mcArray.get(higherIndex).setTotalComics(temp.getTotalComics());
+		mcArray.get(higherIndex).setTotalStories(temp.getTotalStories());
+	}
+	
+}

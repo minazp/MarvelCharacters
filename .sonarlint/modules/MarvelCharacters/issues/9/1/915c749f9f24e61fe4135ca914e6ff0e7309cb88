@@ -1,0 +1,30 @@
+
+’squid:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏÿÕ¹üÿÿÿÿ8¤ìÇ÷Ò,HˆRMINORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÁØÕx8•Ö¦ÊÒ,H:RMAJORZ
+CODE_SMELL
+j
+squid:S106>"9Replace this use of System.out or System.err by a logger.(”¦á8‘ñ’ìÒ,HHRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(´ò©ò8éÔÌ÷Ò,HRMAJORZ
+CODE_SMELL
+Fsquid:S1220""Move this file to a named package.HRMINORZ
+CODE_SMELL
+squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¤žË…ýÿÿÿÿ8ð¢–ÊÒ,HRMAJORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(Á“¢œ8ð¢–ÊÒ,H9RMAJORZ
+CODE_SMELL
+Œsquid:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(ñ¹¥´8ò¡žòÒ,HIRMINORZ
+CODE_SMELL
+ƒsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(çÒ’¾ýÿÿÿÿ8ò¡žòÒ,HKRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(‹‘Ž“8™ÚÎ÷Ò,HRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(«‡¬¨8™ÚÎ÷Ò,HRMAJORZ
+CODE_SMELL
+\squid:S1481#"(Remove this unused "ids" local variable.(ñ¹¥´8™ÚÎ÷Ò,H‘RMINORZ
+CODE_SMELL
+ksquid:S1854#"7Remove this useless assignment to local variable "ids".(ñ¹¥´8™ÚÎ÷Ò,H’RMAJORZ
+CODE_SMELL

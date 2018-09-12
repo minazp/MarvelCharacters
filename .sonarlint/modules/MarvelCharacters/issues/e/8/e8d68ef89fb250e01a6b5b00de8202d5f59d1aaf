@@ -1,0 +1,15 @@
+
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßØÕĞşÿÿÿÿ8ÏÕéÿÒ,HÊRMAJORZ
+CODE_SMELL
+wsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(òĞ¢•üÿÿÿÿ8ÚÔÖ÷Ò,H™RMINORZ
+CODE_SMELL
+Fsquid:S1220""Move this file to a named package.HbRMINORZ
+CODE_SMELL
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½Û¿8‚´÷Ò,HƒRMINORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼ÖôÏüÿÿÿÿ8ÏÕéÿÒ,HÉRMAJORZ
+CODE_SMELL
+¤squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(îÍÛ¿8¯¶×øÒ,H±RMINORZ
+CODE_SMELL
+´squid:S1319"{The type of the "marvelCharacters" object should be an interface such as "List" rather than the implementation "ArrayList".(€‰–ùÿÿÿÿ8ÚÔÖ÷Ò,H—RMINORZ
+CODE_SMELL

@@ -1,0 +1,43 @@
+
+public class MarvelCharacter {
+	private static int id;
+	private static int totalComics;
+	private static int totalStories;
+	private static int totalAppearances;
+	
+	/**
+	 * @return the totalAppearances
+	 */
+	public static int getTotalAppearances() {
+		
+		totalAppearances = totalStories + totalComics;
+		return totalAppearances;
+	}
+
+	/**
+	 * @return the id
+	 */
+	public static int getId() {
+		return id;
+	}
+	/**
+	 * @param id the id to set
+	 */
+	public static void setId(int id) {
+		MarvelCharacter.id = id;
+	}
+	
+	/**
+	 * @param totalComics the totalComics to set
+	 */
+	public static void setTotalComics(int totalComics) {
+		MarvelCharacter.totalComics = totalComics;
+	}
+	
+	/**
+	 * @param totalStories the totalStories to set
+	 */
+	public static void setTotalStories(int totalStories) {
+		MarvelCharacter.totalStories = totalStories;
+	}
+}

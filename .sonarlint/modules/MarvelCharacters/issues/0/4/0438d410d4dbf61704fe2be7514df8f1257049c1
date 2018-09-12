@@ -1,0 +1,5 @@
+
+Fsquid:S1220""Move this file to a named package.HeRMINORZ
+CODE_SMELL
+Ќsquid:S1210;"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(бЫл–8Й—дяТ,HЖRMINORZ
+CODE_SMELL
